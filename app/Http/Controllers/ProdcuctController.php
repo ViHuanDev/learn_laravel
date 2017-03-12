@@ -31,10 +31,10 @@ class ProdcuctController extends Controller
           $pro->price = $request->input('price');
           $pro->image = $request->input('image');
           $pro->categories_id = $request->input('categories_id');
-          // $pro->total=0;
-          // $pro->status=1;
+          $pro->total=0;
+          $pro->status=1;
           $pro->save();
-          \Session::flash('message','Tạo Mới thành công!');
+          \Session::flash('message','Create New Success!');
           return \Redirect::to('product');
           }
     }
