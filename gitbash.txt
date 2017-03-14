@@ -5,5 +5,6 @@
 5: git remote -v // kiem tra remote(dieu khien)
 6: git push origin master //day code len git
 7: vao git kiem tra ok
+8: git pull origin master //sync code from pc
 
 
